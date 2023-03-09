@@ -2,11 +2,12 @@
     font-size: 1.6rem;
     display: grid;
     gap: 2rem;
+    background: linear-gradient(90deg, rgba(76,58,180,1) 25%, rgba(63,200,83,1) 83%);
 }
 
 .content__icon-contact {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr;
     font-size: 4rem;
 }
 
@@ -17,4 +18,13 @@
 .contacto__text-a {
     font-size: 0.8rem;
     color: white;
+}
+
+
+@media (max-width: 800px) {
+    .content__icon-contact {
+       
+       
+    }
+    
 }

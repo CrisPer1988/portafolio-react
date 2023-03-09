@@ -4,8 +4,7 @@
     background-image: url("/images/fondo-header2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-     width: 100vw;
-    min-width: 200px;
+    width: 100vw;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -29,13 +28,24 @@
     100% {transform: translateY(60px)}
 }
 
-.bxl-linkedin {
-    width: 60px;
-    aspect-ratio: 1;
-    justify-self: center;
-    align-self: center;
-    border: 2px solid rgb(255, 255, 255);
+.icons__header {
+    max-width: 60px;
+    min-width: 60px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid rgb(122, 122, 122);
     border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(40, 156, 150);
+}
+
+.content__icons-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
 }
 
 .header__img {
@@ -48,37 +58,18 @@
 }
 
 .header__info {
-    width: 80%;
+    max-width: 80%;
+    min-width: 200px;
     display: grid;
     gap: 1.5rem;
     justify-content: center;
     /*background-color: rgba(0, 0, 0, 0.295);*/
-    backdrop-filter: blur(3px);
+    
     padding: 20px;
     color: rgb(255, 255, 255);
     border-radius: 15px;
 }
 
-.efecto__escribir {
-    text-align: center;
-    display: block;
-    /* font-family: monospace; */
-    white-space: nowrap;
-    border-right: 4px solid;
-    width: 24ch;
-
-    animation: typing 6s infinite steps(24),
-    blink 0.5s infinite step-end alternate;
-    overflow: hidden;
-}
-
-@keyframes typing {
-    from {width: 0}
-}
-
-@keyframes blink {
-    50% {border-color: transparent}
-}
 
 .header__info span {
     color: rgb(223, 223, 223);

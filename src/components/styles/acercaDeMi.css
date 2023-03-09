@@ -19,7 +19,6 @@
     background-color: rgba(0, 0, 0, 0.829);
     margin: 120px 20px;
     padding: 0 10px;
-
     font-weight: bold;
    
 }
@@ -36,5 +35,19 @@
     0% {color: rgb(255, 255, 255)}
     50% {color: rgb(0, 0, 0)}
      100% {color: rgb(255, 255, 255)} 
+}
+
+@media (max-width: 800px) {
+    .contentainer__acercaDeMi {
+        font-size: 1.2rem;
+        line-height: 1;
+        letter-spacing: 1px;
+        
+    }
+
+    .content__info-acercaDeMi {
+        margin: auto;
+        height: auto;
+    }
 }
 
