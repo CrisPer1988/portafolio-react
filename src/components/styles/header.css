@@ -11,7 +11,7 @@
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
-    font-size: 3rem;
+    font-size: 2rem;
 
 }
 
@@ -50,6 +50,26 @@
     gap: 0.5rem;
     background-color: rgba(68, 49, 49, 0.829);
     border-radius: 15px;
+}
+
+.efecto__escribir {
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 24ch;
+
+    animation: typing 6s infinite steps(24),
+    blink 0.5s infinite step-end alternate;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {width: 0}
+}
+
+@keyframes blink {
+    50% {border-color: transparent}
 }
 
 .header__info span {

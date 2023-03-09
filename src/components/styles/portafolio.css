@@ -61,7 +61,7 @@ box-shadow: 10px 17px 36px 0px rgba(82, 82, 82, 0.89);
     aspect-ratio: 1;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     /*transform: translate(0);*/
     cursor: pointer;
     background-color: rgb(255, 255, 255);
@@ -88,7 +88,7 @@ box-shadow: 10px 17px 36px 0px rgba(82, 82, 82, 0.89);
 }
 
 .content__links a {
-    color: rgb(208, 208, 233);
+    color: rgb(128, 128, 248);
 }
 
 

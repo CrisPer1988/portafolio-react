@@ -1,14 +1,20 @@
 .container__habilidades {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
     font-size: 1.6rem;
     height: 100vh;
+    
+    
 }
 
 .content__img-habilidades {
     display: grid;
-    gap: 2.5rem;
+    gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr ;
+    
 }
 
 .content__img-habilidades img {
@@ -23,4 +29,11 @@
 .habilidades__img {
     max-width: 200px;
     aspect-ratio: 1;
+    transition: scale 0.8s;
+}
+
+.habilidades__img:hover {
+    scale: 1.2;
+    background-color: rgb(60, 204, 79);
+    border-color: rgb(122, 122, 122);
 }

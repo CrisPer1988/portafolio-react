@@ -30,7 +30,7 @@ const Portafolio = () => {
     }
 
   return (
-    <div className='container__portafolio'>
+    <div className='container__portafolio' id='proyectos'>
         <h2 className='tittle__portafolio'>[ ...Proyectos ]</h2>
         <div className='slider'>
         <button onClick={handlePrevious} className='slider__btn slider__btn-left'><i className='bx bx-chevron-left'></i></button>
@@ -40,6 +40,7 @@ const Portafolio = () => {
                         <div key={img.id} className='slider__container-img'>
                             <img className='slider__img' src={img.img} alt="" />
                             <div className='content__links'>
+                                <p>{img.descripcion}</p>
                             <a href={img.link} target="_blank">{img.link}</a>
                             </div>  
                         </div>

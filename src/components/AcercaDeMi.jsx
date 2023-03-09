@@ -3,7 +3,7 @@ import "./styles/acercaDeMi.css"
 
 const AcercaDeMi = () => {
   return (
-    <div className='contentainer__acercaDeMi'>
+    <div className='contentainer__acercaDeMi' id='acercaDeMi'>
       <div className='content__info-acercaDeMi'>
         <h2>[ ...Acerca de mi ] </h2>
           <p>Desarrollador front end, preparado para los desafios que

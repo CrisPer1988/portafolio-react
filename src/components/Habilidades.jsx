@@ -3,7 +3,7 @@ import "./styles/habilidades.css"
 
 const Habilidades = () => {
     return (
-        <div className='container__habilidades'>
+        <div className='container__habilidades' id='habilidades'>
             <h2>Habilidades</h2>
             <div className='content__habilidades-grid'>
                 <div className='content__img-habilidades'>

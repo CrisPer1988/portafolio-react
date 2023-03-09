@@ -8,3 +8,8 @@
         
         /*padding: 0 80px;*/
 }
+
+.sections {
+        scroll-margin-top: -200px;
+
+}
