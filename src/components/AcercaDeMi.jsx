@@ -5,8 +5,8 @@ const AcercaDeMi = () => {
   return (
     <div className='contentainer__acercaDeMi' id='acercaDeMi'>
       <div className='content__info-acercaDeMi'>
-        <h2>[ ...Acerca de mi ] </h2>
-          <p>Desarrollador front end, preparado para los desafios que
+        <h2><span className='corchetes'>[</span> ...Acerca de mi <span className='corchetes'>]</span></h2>
+          <p className='text__acercaDeMi'>Desarrollador front end, preparado para los desafios que
           se presentan en una empresa. De preferencia me gusta trabajar
           en equipo. Dispuesto a aprander las tecnologias que sean 
           necesarias para mi buen desarrollo y desempeño.

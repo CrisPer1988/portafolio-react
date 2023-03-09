@@ -22,6 +22,19 @@
 
     font-weight: bold;
    
-
-
 }
+
+.corchetes {
+    color: rgb(64, 212, 84);
+
+    animation: translateCorchetes 2s infinite;
+    
+}
+
+@keyframes translateCorchetes {
+   
+    0% {color: rgb(255, 255, 255)}
+    50% {color: rgb(0, 0, 0)}
+     100% {color: rgb(255, 255, 255)} 
+}
+

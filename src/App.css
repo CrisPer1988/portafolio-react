@@ -1,15 +1,5 @@
 .App {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-       
-        
-        /*padding: 0 80px;*/
-}
+text-align: center;
 
-.sections {
-        scroll-margin-top: -200px;
 
 }

@@ -1,0 +1,20 @@
+.container__contact {
+    font-size: 1.6rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.content__icon-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 4rem;
+}
+
+.contacto__text {
+    font-size: 0.8rem;
+}
+
+.contacto__text-a {
+    font-size: 0.8rem;
+    color: white;
+}

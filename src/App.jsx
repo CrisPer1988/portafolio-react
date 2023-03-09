@@ -1,5 +1,6 @@
 import './App.css'
 import AcercaDeMi from './components/AcercaDeMi'
+import Contacto from './components/Contacto'
 import Habilidades from './components/Habilidades'
 import Header from './components/Header'
 import NavBar from './components/NavBar'
@@ -15,6 +16,7 @@ function App() {
       <AcercaDeMi />
       <Portafolio />
       <Habilidades />
+      <Contacto />
       </div>
       
       
