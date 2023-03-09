@@ -1,15 +1,18 @@
 .container__header {
     /*background: linear-gradient(0deg, rgb(34, 69, 195) 12%, rgba(195,45,253,1) 64%);*/
-    background: linear-gradient(120deg, rgb(64, 52, 109) 22%, rgba(58,124,170,1) 76%);
+    /*background: linear-gradient(120deg, rgb(64, 52, 109) 22%, rgba(58,124,170,1) 76%);*/
+    background-image: url("/images/fondo-header.jpg");
+   
     width: 100vw;
     min-width: 200px;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding: 0 20px;
     font-size: 3rem;
+
 }
 
 
@@ -20,6 +23,8 @@
 
 .content__header-img{
    width: 100%;
+   
+
 }
 
 .bxl-linkedin {
@@ -27,7 +32,7 @@
     aspect-ratio: 1;
     justify-self: center;
     align-self: center;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 15px;
 }
 
@@ -41,7 +46,10 @@
 
 .header__info {
     display: grid;
-    gap: 2rem;
+    padding:20px;
+    gap: 0.5rem;
+    background-color: rgba(68, 49, 49, 0.829);
+    border-radius: 15px;
 }
 
 .header__info span {
