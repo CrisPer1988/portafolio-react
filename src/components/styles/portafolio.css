@@ -10,11 +10,16 @@
     background-image: url("/images/habilidades.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    gap: 1rem;
 }
 
-.tittle__portafolio {
+/* .tittle__portafolio {
     font-size: 2.5rem;
-}
+    color: #f75e46;
+    background-color: #354355;
+    border-radius: 10px;
+    padding: 5px;
+} */
 
 .slider {
     width: 100%;
@@ -67,31 +72,44 @@ box-shadow: 10px 17px 36px 0px rgba(82, 82, 82, 0.89);
     top: 40%;
     /*transform: translate(0);*/
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: #fa6652;
+    color: white;
     z-index: 1;
     border: none;
 }
 
 .slider__btn:hover {
-    filter: brightness(1.05);
+    transform: scale(1.07);
 }
 
 .slider__btn-right {
-    right: 5px;
+    right: 0px;
 }
 
 .slider__btn-left {
-    left: 5px;
+    left: 0px;
 }
 
 .content__links {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    color: #f8af75;
+    font-weight: bold;
  
 }
 
 .content__links a {
-    color: rgb(128, 128, 248);
+    color: #FD715C;
+}
+
+.content__links a:hover {
+    background-color: #f8af75;
+    color: #354355;
+}
+
+@media (max-width: 800px) {
+    .slider__btn {
+        top: 25%;
+    }
 }
 
 

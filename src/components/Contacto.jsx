@@ -4,7 +4,7 @@ import "./styles/contacto.css"
 const Contacto = () => {
   return (
     <div className='container__contact' id='contacto'>
-        <h2>Contacto</h2>
+        <h2 className='title title__contacto'><span className='corchetes'>&lt;</span> Contacto <span className='corchetes'>/&gt;</span></h2>
         <div className='content__icon-contact'>
         
         <i class='bx bxl-whatsapp'></i>

@@ -1,30 +1,40 @@
 .container__contact {
     font-size: 1.6rem;
-    display: grid;
-    gap: 2rem;
-    background: linear-gradient(90deg, rgba(76,58,180,1) 25%, rgba(63,200,83,1) 83%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background: #2C4456;
+
 }
+
+.title__contacto {
+    border-radius: 0;
+    width: 100%;
+
+   
+} 
 
 .content__icon-contact {
     display: grid;
+    gap: 1.5rem;
+    
     grid-template-columns:  1fr 1fr;
     font-size: 4rem;
 }
 
 .contacto__text {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
-
-.contacto__text-a {
-    font-size: 0.8rem;
-    color: white;
-}
-
 
 @media (max-width: 800px) {
     .content__icon-contact {
-       
-       
+        font-size: 2.5rem;
     }
-    
+
+    .contacto__text {
+        font-size: 0.8rem;
+    }
 }

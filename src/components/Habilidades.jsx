@@ -4,7 +4,7 @@ import "./styles/habilidades.css"
 const Habilidades = () => {
     return (
         <div className='container__habilidades' id='habilidades'>
-            <h2 className='title__habilidades'>[ ...Habilidades ]</h2>
+            <h2 className='title'><span className='corchetes'>&lt;</span> Habilidades <span className='corchetes'>/&gt;</span></h2>
             <div className='content__habilidades-grid'>
                 <div className='content__img-habilidades'>
                     <img className='habilidades__img' src="/images/HTML-logo.png" alt="" />

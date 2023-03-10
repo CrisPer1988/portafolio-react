@@ -12,27 +12,33 @@
     background-size: 100% 100%;
 }
 
-.title__habilidades {
-    color: black;
-}
+/* .title__habilidades {
+    color: #f75e46;
+    background-color: #354355;
+    border-radius: 10px;
+    padding: 5px;
+} */
 
 .content__img-habilidades {
     display: grid;
     gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr ;
-    backdrop-filter: blur(1px);
-    
-    
 }
 
 .content__img-habilidades img {
     background-color: rgb(11, 17, 43);
-    
     width: 100%;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
-    padding: 10px;
-   
+    padding: 5px;
+
+    animation: img__habilidades 2s infinite;
+}
+
+@keyframes img__habilidades {
+    0%{ transform: scale(1) }
+    50% {transform: scale(1.1)}
+    100% { transform: scale(1) }
 }
 
 .habilidades__img {
@@ -45,4 +51,10 @@
     scale: 1.2;
     background-color: rgb(60, 204, 79);
     border-color: rgb(122, 122, 122);
+}
+
+@media (max-width: 800px) {
+    .content__img-habilidades {
+        gap: 1.5rem;
+    }
 }

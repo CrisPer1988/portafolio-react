@@ -31,7 +31,7 @@ const Portafolio = () => {
 
   return (
     <div className='container__portafolio' id='proyectos'>
-        <h2 className='tittle__portafolio'>[ ...Proyectos ]</h2>
+        <h2 className='title'><span className='corchetes'>&lt;</span> Proyectos <span className='corchetes'>/&gt;</span></h2>
         <div className='slider'>
         <button onClick={handlePrevious} className='slider__btn slider__btn-left'><i className='bx bx-chevron-left'></i></button>
             <div style={styleMovement} className='slider__movement'>

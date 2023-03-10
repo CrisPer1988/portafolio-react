@@ -10,14 +10,14 @@ function App() {
 
   return (
     <div className="App">
-      <div className='sections'>
+      
       <NavBar />
       <Header />
       <AcercaDeMi />
       <Portafolio />
       <Habilidades />
       <Contacto />
-      </div>
+     
       
       
    
