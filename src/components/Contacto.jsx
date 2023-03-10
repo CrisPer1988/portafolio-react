@@ -6,16 +6,27 @@ const Contacto = () => {
     <div className='container__contact' id='contacto'>
         <h2 className='title title__contacto'><span className='corchetes'>&lt;</span> Contacto <span className='corchetes'>/&gt;</span></h2>
         <div className='content__icon-contact'>
-        
+
+        <div className='icon__contact'>
         <i class='bx bxl-whatsapp'></i>
-        <i class='bx bx-envelope'></i>
-        
-        <h3 className='contacto__text'>+54 9 2622-468440</h3>
-        
-        <h3 className='contacto__text'>norberto.cp@hotmail.com</h3>
+        <a className='contacto__text' href="https://wa.me/5492622468440" target={"_blank"}>Whats App</a>
         </div>
+        <div className='icon__contact'>
+        <i class='bx bx-envelope'></i>
+        <a className='contacto__text' href="mailto:norberto.cp@hotmail.com" target={"_blank"}>Email</a>
+        </div>
+       
+          
+          
+        
+
+        
+      
+      </div>
+      <h6 className='copyright'>Copyright © 2023 Cristian Perez.</h6>
     </div>
   )
 }
 
 export default Contacto
+
