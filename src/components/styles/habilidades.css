@@ -23,6 +23,7 @@
     display: grid;
     gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr ;
+
 }
 
 .content__img-habilidades img {
@@ -42,7 +43,7 @@
 }
 
 .habilidades__img {
-    max-width: 200px;
+    max-width: 150px;
     aspect-ratio: 1;
     transition: scale 0.8s;
 }
@@ -52,6 +53,7 @@
     background-color: rgb(60, 204, 79);
     border-color: rgb(122, 122, 122);
 }
+
 
 @media (max-width: 800px) {
     .content__img-habilidades {
