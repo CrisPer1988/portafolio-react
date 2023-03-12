@@ -2,7 +2,8 @@
     /* background-image: url("/images/fondo-header2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; */
-    background: linear-gradient(0deg, rgba(249,164,112,1) 32%, rgba(253,113,92,1) 66%);
+    /* background: linear-gradient(90deg, rgba(249,164,112,1) 65%, rgba(253,113,92,1) 35%); */
+    background: linear-gradient(90deg, #16bfbc 65%, rgba(253,113,92,1) 35%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -14,6 +15,10 @@
 
 .content__header-img{
     width: 100%;
+    max-width: 350px;
+    border: 2px solid rgb(146, 145, 145);
+    box-shadow: 20px 20px 4px 2px rgba(36, 35, 35, 0.8);
+    border-radius: 50%;
     animation: imgtranslate 2s infinite;
 
 
@@ -32,7 +37,7 @@
 }
 
 .title__contacto-header {
-    color: #354355;
+    color: #212a36;
 }
 
 .icons__header {
@@ -60,15 +65,24 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
+
+    position: relative;
     
 }
 
 .header__img {
     width: 100%;
-    max-width: 250px;
+     max-width: 250px;
     aspect-ratio: 1;
     transition: transform 2s;
+    border-radius: 50%;
+   
+    
+    
 }
+
+
+
 
 
 
@@ -91,7 +105,7 @@
 
 
 .header__info span {
-    color: #354355;
+    color: #212a36;
     font-size: 2.6rem;
     font-family:cursive;
 }
@@ -107,6 +121,7 @@
     .content__header-img{
         width: 100%;
         animation: imgtranslate 2s infinite;
+
       
     }
     

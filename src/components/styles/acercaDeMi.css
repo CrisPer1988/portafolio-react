@@ -10,7 +10,7 @@
     /* background-image: url("/images/react-proyectos.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%; */
-    background-color: #426175;
+    background: linear-gradient(90deg,rgba(253,113,92,1)  35%, #47698b 35%);
     color: rgb(235, 164, 34);
 
 }
