@@ -14,7 +14,7 @@ text-align: center;
 .corchetes {
     color: rgb(64, 212, 84);
 
-    animation: translateCorchetes 2s infinite;
+    animation: translateCorchetes 0.3s infinite;
     
 }
 
