@@ -28,19 +28,30 @@
 .icon__contact {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
- 
-    
+    gap: 0.5rem; 
+
 }
+
+
+
 
 .bxl-whatsapp {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white ;
     color: #1bd741;
-    background-color: #f0f0f0;
     border-radius: 50%;
     aspect-ratio: 1;
+    animation: giro 2s infinite;
+}
+
+@keyframes giro {
+    
+    100% {transform: rotate(360deg);}
+
+
+    
 }
 
 .bx-envelope {
@@ -48,9 +59,10 @@
     justify-content: center;
     align-items: center;
     color: #d82a2a;
-    background-color: #f0f0f0;
+    background-color: white ;
     border-radius: 50%;
     aspect-ratio: 1;
+    animation: giro 2s infinite;
 }
 
 

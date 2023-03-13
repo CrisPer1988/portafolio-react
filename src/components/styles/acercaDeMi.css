@@ -3,7 +3,7 @@
     gap: 1rem;
     width: 100%;
     min-height: 100vh;
-
+    padding: 0 180px;
     letter-spacing: 0.3rem;
     font-size:1.6rem;
     line-height: 2.5rem;
@@ -12,6 +12,7 @@
     background-size: 100% 100%; */
     background: linear-gradient(90deg,rgba(253,113,92,1)  35%, #16bfbc 35%);
     color: #16bfbc;
+    
 
 }
 
@@ -19,6 +20,7 @@
     border: 5px solid rgb(85, 85, 85);
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.842);
+    box-shadow: 20px 20px 4px 2px rgba(36, 35, 35, 0.8);
     margin: 120px 20px;
     padding: 0 10px;
     font-weight: bold;
@@ -44,7 +46,7 @@
         font-size: 1.4rem;
         line-height: 1.3;
         letter-spacing: 3px;
-        
+        padding: 0 10px;
     }
 
     .content__info-acercaDeMi {
