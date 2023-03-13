@@ -102,8 +102,12 @@ user-select: none;
 }
 
 .content__links a:hover {
-    background-color: #f8af75;
-    color: #354355;
+    background-color: #ee7a1c;
+    color: white;
+}
+
+.descripcion {
+    color: white ;
 }
 
 @media (max-width: 800px) {

@@ -40,7 +40,7 @@ const Portafolio = () => {
                         <div key={img.id} className='slider__container-img'>
                             <img className='slider__img' src={img.img} alt="" />
                             <div className='content__links'>
-                                <p>{img.descripcion}</p>
+                                <p className='descripcion'>{img.descripcion}</p>
                             <a href={img.link} target="_blank">{img.link}</a>
                             </div>  
                         </div>
