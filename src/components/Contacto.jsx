@@ -8,12 +8,12 @@ const Contacto = () => {
         <div className='content__icon-contact'>
 
         <div className='icon__contact'>
-        <i class='bx bxl-whatsapp'></i>
-        <a className='contacto__text' href="https://wa.me/5492622468440" target={"_blank"}>Whats App</a>
+        
+        <a className='contacto__text' href="https://wa.me/5492622468440" target={"_blank"}><i class='bx bxl-whatsapp'></i></a>
         </div>
         <div className='icon__contact'>
-        <i class='bx bx-envelope'></i>
-        <a className='contacto__text' href="mailto:norberto.cp@hotmail.com" target={"_blank"}>Email</a>
+        
+        <a className='contacto__text' href="mailto:norberto.cp@hotmail.com" target={"_blank"}><i class='bx bx-envelope'></i></a>
         </div>
        
           
