@@ -7,9 +7,10 @@
     font-size: 1.8rem;
     
     height: 100vh;
-    background-image: url("/images/habilidades2.avif");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /* background-image: url("/images/habilidades2.avif"); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background: linear-gradient(180deg,#16bfbc  50%, rgba(253,113,92,1) 50%);
 }
 
 /* .title__habilidades {
@@ -23,6 +24,7 @@
     display: grid;
     gap: 4rem;
     grid-template-columns: 1fr 1fr 1fr ;
+    padding: 0 20px;
 
 }
 

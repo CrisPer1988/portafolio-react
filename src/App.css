@@ -4,11 +4,25 @@ text-align: center;
 
 .title {
     color: #f75e46;
-    background-color: #354355;
+    background-color: #1c8685 ;
 
     padding: 5px;
     font-size: 2.5rem;
     width: 100%;
+}
+
+.corchetes {
+    color: rgb(64, 212, 84);
+
+    animation: translateCorchetes 2s infinite;
+    
+}
+
+@keyframes translateCorchetes {
+   
+    0% {color: rgba(253,113,92,1)}
+    50% {color: #16bfbc}
+     100% {color: rgba(253,113,92,1)} 
 }
 
 @media (max-width: 800px) {
