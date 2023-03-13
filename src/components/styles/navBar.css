@@ -37,7 +37,8 @@
 
 .link__navBar:hover {
    
-    color: #4b596b;
+    color: #9e1414;
+    transform: scale(1.2);
     text-decoration: underline;
 }
 
