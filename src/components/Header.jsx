@@ -14,17 +14,9 @@ const Header = () => {
             <a className='icons__header'  href="/images/Curriculum-Cristian-Norberto-Perez.pdf" target={"_blank"}>CV</a>
             </div>
             </div>
-        
-        {/* <div className='header__links'> */}
-        
-        {/* </div> */}
         <header className='content__header-img'>
             <img className='header__img' src="./images/header11.jpg" alt="" />
         </header>
-        
-        
-        
-        
     </div>
   )
 }

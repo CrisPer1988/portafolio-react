@@ -17,15 +17,9 @@
     border-radius: 50%;
     margin-bottom: 60px;
     animation: imgtranslate 2s infinite;
-
-
-  
 }
 
 @keyframes imgtranslate {
-    /* 0% {transform: translateY(60px);}
-    50% {transform: translateY(30px)}
-    100% {transform: translateY(60px)} */
     0% {transform: translateX(60px);}
     50% {transform: translateX(30px)}
     100% {transform: translateX(60px)}
@@ -83,7 +77,6 @@
     display: grid;
     gap: 1rem;
     justify-content: center;
-    /*background-color: rgba(0, 0, 0, 0.295);*/
     color: rgb(255, 255, 255);
     border-radius: 15px;
 }
@@ -100,21 +93,18 @@
         flex-direction: column;
         font-size: 1.6rem;
         padding: 0 40px;
-     
     }
 
     .content__header-img{
         width: 100%;
         animation: imgtranslate 2s infinite;
-
-      
     }
     
     @keyframes imgtranslate {
-         0% {transform: translateY(60px);}
+        0% {transform: translateY(60px);}
         50% {transform: translateY(30px)}
         100% {transform: translateY(60px)} 
-         0% {transform: translateY(40px);}
+        0% {transform: translateY(40px);}
         50% {transform: translateY(20px)}
         100% {transform: translateY(40px)} 
     

@@ -11,23 +11,17 @@
 
 
 .ul__navBar {
-     width: 100%;
-     padding: 20px ;
-    /*height: 80px; */
-     display: flex;
+    width: 100%;
+    padding: 20px ;
+    display: flex;
     justify-content: end; 
     align-items: center;
     font-size: 1.rem;
     letter-spacing: 2px;
     font-weight: bold;
     gap: 2.5rem;
-    
-
-    
     background: #f75e46;
     color: rgb(255, 255, 255);
-   
-    
 }
 
 .link__navBar {
@@ -36,7 +30,6 @@
 }
 
 .link__navBar:hover {
-   
     color: #9e1414;
     transform: scale(1.2);
     text-decoration: underline;
@@ -59,8 +52,6 @@
         right: 20px;
         top: 10px;
         z-index: 5000;
-        
-        
     }
 
     .ul__navBar {
@@ -83,10 +74,6 @@
 
     .container__navBar {
         height: 50px;
-        
     }
-  
-
-   
 
 }

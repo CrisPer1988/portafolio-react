@@ -7,9 +7,6 @@
     letter-spacing: 0.3rem;
     font-size:1.6rem;
     line-height: 2.5rem;
-    /* background-image: url("/images/react-proyectos.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%; */
     background: linear-gradient(90deg,rgba(253,113,92,1)  35%, #16bfbc 35%);
     color: #16bfbc;
     
@@ -27,20 +24,6 @@
    
 }
 
-/* .corchetes {
-    color: rgb(64, 212, 84);
-
-    animation: translateCorchetes 2s infinite;
-    
-}
-
-@keyframes translateCorchetes {
-   
-    0% {color: #f8af75}
-    50% {color: #354355}
-     100% {color: #f8af75} 
-} */
-
 @media (max-width: 800px) {
     .contentainer__acercaDeMi {
         font-size: 1.4rem;
@@ -57,7 +40,6 @@
         align-items: center;
         gap: 1rem;
         margin: auto 0;
-       
         height: max-content;
     }
 }

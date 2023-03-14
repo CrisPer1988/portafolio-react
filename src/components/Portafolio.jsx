@@ -45,17 +45,7 @@ const Portafolio = () => {
                             </div>  
                         </div>
                     ))
-
-
-                    
                 }
-                {/* <div className='slider__container-img'>
-                    <img className='slider__img' src="/images/app-clima.png" alt="" />
-                    <img className='slider__img' src="/images/ecommerce-react.png" alt="" />
-                    <img className='slider__img' src="/images/user-form.png" alt="" />
-                    <img className='slider__img' src="/images/rick-morty.png" alt="" />
-                    <img className='slider__img' src="/images/ecommerce-javascript.png" alt="" />
-                </div>    */}
             </div>
             <button onClick={handleNext} className='slider__btn slider__btn-right'><i className='bx bx-chevron-right'></i></button>
         </div>

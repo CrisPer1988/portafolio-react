@@ -5,20 +5,11 @@
     align-items: center;
     gap: 2rem;
     font-size: 1.8rem;
-    
     height: 100vh;
-    /* background-image: url("/images/habilidades2.avif"); */
-    /* background-repeat: no-repeat;
-    background-size: 100% 100%; */
     background: linear-gradient(180deg,#16bfbc  50%, rgba(253,113,92,1) 50%);
 }
 
-/* .title__habilidades {
-    color: #f75e46;
-    background-color: #354355;
-    border-radius: 10px;
-    padding: 5px;
-} */
+
 
 .content__img-habilidades {
     display: grid;
@@ -61,6 +52,4 @@
     .content__img-habilidades {
         gap: 1.5rem;
     }
-
-    
 }
