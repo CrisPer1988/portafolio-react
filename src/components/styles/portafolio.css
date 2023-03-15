@@ -6,9 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/habilidades.png");
+    /* background-image: url("/images/habilidades.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
+    background: linear-gradient(0deg, rgba(68,88,113,1) 24%, rgba(33,42,54,1) 76%);
     gap: 1rem;
 }
 
@@ -60,8 +61,8 @@
     position: absolute;
     top: 40%;
     cursor: pointer;
-    background-color: #fa6652;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     z-index: 1;
     border: none;
 }
@@ -86,11 +87,11 @@
 }
 
 .content__links a {
-    color: #16bfbc;
+    color: #000000;
 }
 
 .content__links a:hover {
-    background-color: #ee7a1c;
+    background-color: #000000;
     color: white;
 }
 

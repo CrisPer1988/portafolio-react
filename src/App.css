@@ -4,7 +4,7 @@ text-align: center;
 
 .title {
     color: #ffffff;
-    background-color: #1c8685 ;
+    /* background-color: #1c8685 ; */
 
     padding: 5px;
     font-size: 2.5rem;
@@ -20,9 +20,9 @@ text-align: center;
 
 @keyframes translateCorchetes {
    
-    0% {color: rgba(253,113,92,1)}
-    50% {color: #16bfbc}
-     100% {color: rgba(253,113,92,1)} 
+    0% {color: rgba(33,42,54,1)}
+    50% {color: #ffffff}
+     100% {color: rgba(33,42,54,1)} 
 }
 
 @media (max-width: 800px) {

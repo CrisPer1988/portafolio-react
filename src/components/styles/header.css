@@ -1,5 +1,7 @@
 .container__header {
-    background: linear-gradient(90deg, #16bfbc 65%, rgba(253,113,92,1) 35%);
+    /* background: linear-gradient(90deg, #16bfbc 65%, rgba(253,113,92,1) 35%); */
+    /* background-color: #212a36; */
+    background: linear-gradient(0deg, rgba(68,88,113,1) 15%, rgba(33,42,54,1) 87%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -28,7 +30,7 @@
 }
 
 .title__contacto-header {
-    color: #212a36;
+    color: rgb(56, 247, 199);
 }
 
 .icons__header {
@@ -43,7 +45,7 @@
     color: white;
     font-size: 1.8rem;
     font-weight: bold;
-    background-color: #f75e46;
+    /* background-color: #f75e46; */
 }
 
 .icons__header:hover {
@@ -83,7 +85,8 @@
 
 
 .header__info span {
-    color: #212a36;
+    /* color: #212a36; */
+    color: rgb(56, 247, 199);
     font-size: 2.6rem;
     font-family:cursive;
 }
