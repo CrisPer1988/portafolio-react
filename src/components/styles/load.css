@@ -29,7 +29,7 @@
 
 
 
-.content__load {
+/* .content__load {
     width: 100%;
     height: 250px;
     background-color: rgba(22, 22, 22, 0.623) ;
@@ -37,7 +37,7 @@
     padding: 50px;
     position: relative;
     animation: loading__content 5s ;
-}
+} */
 
 @keyframes loading__content {
     0% {transform: scale(0);}

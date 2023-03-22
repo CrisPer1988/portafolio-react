@@ -1,7 +1,5 @@
 .container__header {
-    /* background: linear-gradient(90deg, #16bfbc 65%, rgba(253,113,92,1) 35%); */
-    /* background-color: #212a36; */
-    background: linear-gradient(0deg, rgba(68,88,113,1) 15%, rgba(33,42,54,1) 87%);
+    background-color: #191919;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -66,7 +64,7 @@
 .header__img {
     width: 100%;
     max-width: 250px;
-    aspect-ratio: 1;
+
     transition: transform 2s;
     border-radius: 50%;
 }

@@ -83,16 +83,18 @@
     font-size: 1.3rem;
     color: #f8af75;
     font-weight: bold;
+
+    display: grid;
+    gap: 2rem;
  
 }
 
 .content__links a {
-    color: #000000;
+    color: #eda814;
 }
 
 .content__links a:hover {
-    background-color: #000000;
-    color: white;
+    transform: scale(1.2);
 }
 
 .descripcion {
